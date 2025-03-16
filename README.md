@@ -1,6 +1,5 @@
 # Container with Grafana
 
-[Up](../README.md)
 
 This guide describes how to monitor Mikrotik devices using Prometheus+Grafana installed on RouterOS in a container. In this case on CHR, but this can be done on any device that supports containers or in the cloud. 
 This method can also be used for other types of monitoring supported by Grafana and Prometheus.
@@ -201,6 +200,3 @@ Enter the dashboard ID 14420 and click Load
 
 Now go to the Dashboard, select the imported dashboard, and in the instances, select the IP address of the device we want to see information about.
 ![](images/Grafana_Fin.PNG)
-
-
-[Main](../../../../README.md)
